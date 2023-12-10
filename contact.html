@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body class="contact">
+    <header>
+        <div id="logo">
+            <a href="index.html">
+                <img class="logo" src="images/logo.jpg" alt="logo">
+            </a>
+        </div>
+       
+        <div class="inner-header">
+
+            <nav id="primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="dancegear.html">Gear</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+<!-- end inner header -->
+
+    </header>
+
+        <div id="wrapper">
+            <h1 id="contact">Contact Us</h1>
+
+            <div id="wrapper4">
+
+            <form action="formhandler.php" method="post">
+                <fieldset>
+
+                        <legend>We'd love to hear from you</legend>
+
+                    <label>name</label>
+                    <input type="text" name="name">
+                    <label>Email</label>
+                    <input type="email" name="email">
+    
+                    <ul>
+                        <li><input type="radio" name="gender" value="female">Female</li>
+                        <li><input type="radio" name="gender" value="male">Male</li>
+                        <li><input type="radio" name="gender" value="other">Other</li>
+                    </ul>
+    
+                    <label>Favorite Dance Style</label>
+                    <ul>
+                        <li><input type="checkbox" name="wines[]" value="cab">Latin</li>
+                        <li><input type="checkbox" name="wines[]" value="merlot">Jazz</li>
+                        <li><input type="checkbox" name="wines[]" value="malbec">Hip Hop</li>
+                        <li><input type="checkbox" name="wines[]" value="syrah">Other</li>
+                    </ul>
+    
+                    <label>States</label>
+                    <select name="regions">
+                        <option value="">Select One</option>
+                        <option value="nw">Washington</option>
+                        <option value="sw">Texas</option>
+                        <option value="mw">California</option>
+                        <option value="so">Nevada</option>
+                        <option value="ne">Other</option>
+                    </select>
+    
+    
+                    <label>Comments</label>
+                    <textarea name="comments"></textarea>
+                    <input class="submit" type="submit" name="submit" value="Send">
+    
+                    <p id="reset"><a href="">Reset</a></p> 
+
+
+
+                </fieldset>
+            </form>
+            </div>
+        </div>
+
+        
+
+        <footer>
+            <ul>
+                <li>&copy;<script>document.write(new Date().getFullYear())</script> yBigford</li>
+                <li><a href="https://www.freepik.com/free-vector/silhouette-dancer-watercolour-background-with-gold-elements_28567240.htm#page=2&query=dance%20logo&position=9&from_view=search&track=ais&uuid=9df6b972-f2e1-43c8-97f2-70ca7c22f2db">Logo by kjpargeter on Freepik</a></li>  
+                <li><a href="index.html"><i class="fa fa-home fa-4x"></i></a></li>
+                <li><a href="../index.html">Portal</a></li> 
+                <li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcentral.mystudentswa.com%2Fyapabi%2Fit161%2Ffinalproject%2Fcontact.html"><img class="ig" src="images/html5logo.png" alt="html 5 logo"></a></li>  
+                
+            </ul>
+        
+        </footer>
+            
+            
+        </body>
+        </html>
